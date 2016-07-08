@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="165.0" prefWidth="166.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="controller.MenuFXMLController">
+   <children>
+      <Pane layoutX="-7.0" layoutY="-7.0" prefHeight="356.0" prefWidth="378.0">
+         <children>
+            <Label layoutX="115.0" layoutY="49.0" text="CINEMA">
+               <font>
+                  <Font size="40.0" />
+               </font>
+            </Label>
+            <Button fx:id="btnMenuFilme" layoutX="76.0" layoutY="153.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="84.0" text="Menu Filme" textAlignment="CENTER" />
+            <Button fx:id="btnMenuSala" layoutX="226.0" layoutY="153.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="84.0" text="Menu Sala" textAlignment="CENTER" />
+            <Button fx:id="btnMenuSecao" layoutX="76.0" layoutY="254.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="84.0" text="Menu Seção" textAlignment="CENTER" />
+            <Button fx:id="btnMenuVenda" layoutX="226.0" layoutY="254.0" mnemonicParsing="false" text="Menu Venda" textAlignment="CENTER" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

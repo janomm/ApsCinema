@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="527.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.FilmeFXMLController">
+   <children>
+      <VBox layoutY="50.0" prefHeight="293.0" prefWidth="600.0">
+         <children>
+            <TableView fx:id="tableViewFilmes" prefHeight="296.0" prefWidth="600.0">
+              <columns>
+                <TableColumn fx:id="tableColumnFilme" prefWidth="233.0" text="Filme" />
+                <TableColumn fx:id="tableColumnGenero" prefWidth="108.0" text="Gênero" />
+                  <TableColumn fx:id="tableColumnSinopse" prefWidth="258.0" text="Sinopse" />
+              </columns>
+            </TableView>
+         </children>
+      </VBox>
+      <Pane layoutX="-1.0" layoutY="340.0" prefHeight="205.0" prefWidth="600.0">
+         <children>
+            <Button fx:id="btnIncluir" layoutX="116.0" layoutY="14.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="61.0" text="Inserir" />
+            <Button fx:id="btnEditar" layoutX="274.0" layoutY="14.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="61.0" text="Editar" />
+            <Button fx:id="btnExcluir" layoutX="427.0" layoutY="14.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="61.0" text="Excluir" />
+            <Label layoutX="90.0" layoutY="60.0" text="Filme:" />
+            <Label layoutX="90.0" layoutY="95.0" text="Gênero:" />
+            <Label layoutX="90.0" layoutY="130.0" text="Sinopse:" />
+            <TextField fx:id="textFieldFilme" layoutX="153.0" layoutY="56.0" prefHeight="25.0" prefWidth="296.0" />
+            <TextField fx:id="textFieldGenero" layoutX="152.0" layoutY="91.0" prefHeight="25.0" prefWidth="296.0" />
+            <TextField fx:id="textFieldSinopse" layoutX="152.0" layoutY="126.0" prefHeight="25.0" prefWidth="296.0" />
+            <Button fx:id="btnOk" layoutX="201.0" layoutY="165.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="61.0" text="Ok" />
+            <Button fx:id="btnCancelar" layoutX="325.0" layoutY="165.0" mnemonicParsing="false" text="Cancelar" />
+         </children>
+      </Pane>
+      <Label layoutX="253.0" text="FILME">
+         <font>
+            <Font size="35.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

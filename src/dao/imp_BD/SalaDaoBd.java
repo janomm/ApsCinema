@@ -119,6 +119,7 @@ public class SalaDaoBd extends DaoBd<Sala> implements SalaDao{
             if(resultado.next()){
                 int assento = resultado.getInt("assento");
                 sala.setNumero(numero);
+                sala.setAssentos(assento);
             }
         } catch (Exception e) {
             System.err.println("Erro ao buscar sala.");
